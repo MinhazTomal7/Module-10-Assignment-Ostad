@@ -93,7 +93,7 @@ function countVowels (vowels){
 }
 
 let vowel = countVowels ("vowelArray")
-document.getElementById("lowercaseFirstLetter").innerHTML = `<h3>The number of the vowel in the string: ${vowel} </h3>`
+document.getElementById("countVowels").innerHTML = `<h3>The number of the vowel in the string: ${vowel} </h3>`
 
 
 
